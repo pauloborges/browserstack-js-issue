@@ -1,0 +1,77 @@
+$ yarn start
+yarn run v1.3.2
+$ karma start karma.config.js
+16 01 2018 14:01:09.451:DEBUG [config]: autoWatch set to false, because of singleRun
+16 01 2018 14:01:09.455:DEBUG [plugin]: Loading karma-* from /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules
+16 01 2018 14:01:09.456:DEBUG [plugin]: Loading plugin /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-browserstack-launcher.
+16 01 2018 14:01:09.503:DEBUG [plugin]: Loading plugin /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-jasmine.
+16 01 2018 14:01:09.504:DEBUG [plugin]: Loading inlined plugin (defining launcher:browserstack_iphone7, launcher:browserstack_iphoneSe).
+16 01 2018 14:01:09.510:DEBUG [web-server]: Instantiating middleware
+16 01 2018 14:01:09.517:DEBUG [reporter]: Trying to load reporter: BrowserStack
+16 01 2018 14:01:09.518:DEBUG [reporter]: Trying to load color-version of reporter: BrowserStack (BrowserStack_color)
+16 01 2018 14:01:09.518:DEBUG [reporter]: Couldn't load color-version.
+16 01 2018 14:01:09.547:INFO [karma]: Karma v1.7.1 server started at http://0.0.0.0:9876/
+16 01 2018 14:01:09.547:INFO [launcher]: Launching browsers browserstack_iphone7, browserstack_iphoneSe with concurrency 2
+16 01 2018 14:01:09.548:DEBUG [launcher.browserstack]: Establishing the tunnel on dev.partnerbookingkit.com:9876
+16 01 2018 14:01:09.572:INFO [launcher]: Starting browser Mobile Safari (ios 10.3) on BrowserStack
+16 01 2018 14:01:09.573:INFO [launcher]: Starting browser Mobile Safari (ios 10.3) on BrowserStack
+16 01 2018 14:01:12.458:DEBUG [launcher.browserstack]: Tunnel established.
+16 01 2018 14:01:15.761:INFO [launcher.browserstack]: Mobile Safari (ios 10.3) session at https://www.browserstack.com/automate/builds/609dfcc61fab09832d99a8076d79301885be8c16/sessions/38242d995686564a37734f8416fe87a51437bdfa
+16 01 2018 14:01:15.761:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job with id 84185192 in queue.
+16 01 2018 14:01:15.761:INFO [launcher.browserstack]: Mobile Safari (ios 10.3) session at https://www.browserstack.com/automate/builds/609dfcc61fab09832d99a8076d79301885be8c16/sessions/048b936712e4a5316875c783a9f8282717ddd758
+16 01 2018 14:01:15.762:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job with id 84185193 in queue.
+16 01 2018 14:01:18.569:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job started with id 84185192
+16 01 2018 14:01:19.978:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job started with id 84185193
+16 01 2018 14:01:39.999:DEBUG [web-server]: serving: /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma/static/client.html
+16 01 2018 14:01:40.368:DEBUG [web-server]: serving: /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma/static/karma.js
+16 01 2018 14:01:40.631:DEBUG [karma]: A browser has connected on socket lXNCOh76PmHXPo31AAAA
+16 01 2018 14:01:40.818:INFO [Mobile Safari 10.0.0 (iOS 10.3.0)]: Connected on socket lXNCOh76PmHXPo31AAAA with id 85042786
+16 01 2018 14:01:40.818:DEBUG [launcher]: Mobile Safari (ios 10.3) on BrowserStack (id 85042786) captured in 31.27 secs
+16 01 2018 14:01:40.862:DEBUG [web-server]: upgrade /socket.io/?EIO=3&transport=websocket&sid=lXNCOh76PmHXPo31AAAA
+16 01 2018 14:01:40.908:DEBUG [middleware:karma]: custom files null null null
+16 01 2018 14:01:40.908:DEBUG [middleware:karma]: Serving static request /context.html
+16 01 2018 14:01:40.909:DEBUG [web-server]: serving: /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma/static/context.html
+16 01 2018 14:01:40.979:DEBUG [web-server]: serving: /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma/static/context.js
+16 01 2018 14:01:41.229:DEBUG [middleware:source-files]: Requesting /base/node_modules/karma-jasmine/lib/boot.js?945a38bf4e45ad2770eb94868231905a04a0bd3e /
+16 01 2018 14:01:41.229:DEBUG [middleware:source-files]: Fetching /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-jasmine/lib/boot.js
+16 01 2018 14:01:41.230:DEBUG [web-server]: serving (cached): /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-jasmine/lib/boot.js
+16 01 2018 14:01:41.232:DEBUG [middleware:source-files]: Requesting /base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?73bc53d3671677e6a093fc74e4f9bcde57e5f7ad /
+16 01 2018 14:01:41.232:DEBUG [middleware:source-files]: Fetching /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/jasmine-core/lib/jasmine-core/jasmine.js
+16 01 2018 14:01:41.232:DEBUG [middleware:source-files]: Requesting /base/node_modules/karma-jasmine/lib/adapter.js?7a813cc290d592e664331c573a1a796192cdd1ad /
+16 01 2018 14:01:41.233:DEBUG [middleware:source-files]: Fetching /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-jasmine/lib/adapter.js
+16 01 2018 14:01:41.233:DEBUG [middleware:source-files]: Requesting /base/test.js?c9fe21e97e9dbea138e1ee090644b6f810a44933 /
+16 01 2018 14:01:41.233:DEBUG [middleware:source-files]: Fetching /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/test.js
+16 01 2018 14:01:41.233:DEBUG [web-server]: serving (cached): /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/jasmine-core/lib/jasmine-core/jasmine.js
+16 01 2018 14:01:41.234:DEBUG [web-server]: serving (cached): /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/node_modules/karma-jasmine/lib/adapter.js
+16 01 2018 14:01:41.234:DEBUG [web-server]: serving (cached): /Users/pauloborges/Workspace/fareoffice/tmp/browserstack-js-issue/test.js
+.
+Mobile Safari 10.0.0 (iOS 10.3.0): Executed 1 of 1 SUCCESS (0.006 secs / 0.003 secs)
+16 01 2018 14:01:41.451:DEBUG [launcher.browserstack]: Killing Mobile Safari (ios 10.3) (worker 84185193).
+16 01 2018 14:01:42.026:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) (worker 84185193) successfully killed.
+16 01 2018 14:02:18.574:WARN [launcher.browserstack]: Mobile Safari (ios 10.3) has not captured in 60000 ms, killing.
+16 01 2018 14:02:18.574:DEBUG [launcher.browserstack]: Killing Mobile Safari (ios 10.3) (worker 84185192).
+16 01 2018 14:02:20.623:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) (worker 84185192) successfully killed.
+16 01 2018 14:02:20.624:DEBUG [launcher]: Finished all browsers
+16 01 2018 14:02:22.025:INFO [launcher.browserstack]: Mobile Safari (ios 10.3) session at https://www.browserstack.com/automate/builds/609dfcc61fab09832d99a8076d79301885be8c16/sessions/63bb9f4d9d0eff77d24e89ae20dc3686d54a32fb
+16 01 2018 14:02:22.025:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job with id 84185226 in queue.
+16 01 2018 14:02:24.866:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job started with id 84185226
+16 01 2018 14:03:24.869:WARN [launcher.browserstack]: Mobile Safari (ios 10.3) has not captured in 60000 ms, killing.
+16 01 2018 14:03:24.869:DEBUG [launcher.browserstack]: Killing Mobile Safari (ios 10.3) (worker 84185226).
+16 01 2018 14:03:26.120:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) (worker 84185226) successfully killed.
+16 01 2018 14:03:28.366:INFO [launcher.browserstack]: Mobile Safari (ios 10.3) session at https://www.browserstack.com/automate/builds/609dfcc61fab09832d99a8076d79301885be8c16/sessions/fd142cedf231b55c49857ce77c589b29058e0e9d
+16 01 2018 14:03:28.366:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job with id 84185275 in queue.
+16 01 2018 14:03:29.757:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job started with id 84185275
+16 01 2018 14:04:29.760:WARN [launcher.browserstack]: Mobile Safari (ios 10.3) has not captured in 60000 ms, killing.
+16 01 2018 14:04:29.761:DEBUG [launcher.browserstack]: Killing Mobile Safari (ios 10.3) (worker 84185275).
+16 01 2018 14:04:31.014:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) (worker 84185275) successfully killed.
+16 01 2018 14:04:32.009:INFO [launcher.browserstack]: Mobile Safari (ios 10.3) session at https://www.browserstack.com/automate/builds/609dfcc61fab09832d99a8076d79301885be8c16/sessions/4e1e1a6157094ae0f0f93238292e3e981842f7f0
+16 01 2018 14:04:32.009:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job with id 84185310 in queue.
+16 01 2018 14:04:33.410:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) job started with id 84185310
+16 01 2018 14:05:33.412:WARN [launcher.browserstack]: Mobile Safari (ios 10.3) has not captured in 60000 ms, killing.
+16 01 2018 14:05:33.412:DEBUG [launcher.browserstack]: Killing Mobile Safari (ios 10.3) (worker 84185310).
+16 01 2018 14:05:34.595:DEBUG [launcher.browserstack]: Mobile Safari (ios 10.3) (worker 84185310) successfully killed.
+16 01 2018 14:05:34.596:DEBUG [karma]: Run complete, exiting.
+16 01 2018 14:05:34.597:DEBUG [launcher]: Disconnecting all browsers
+16 01 2018 14:05:34.598:DEBUG [launcher.browserstack]: Shutting down the tunnel.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
